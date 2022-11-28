@@ -1,0 +1,27 @@
+[
+        {
+          "name": "Chipsy",
+          "count": "20",
+          "price": "5",
+          "id": 1
+        },
+        {
+          "name": "Molto",
+          "count": "18",
+          "price": "7",
+          "id": 2
+        },
+        {
+          "name": "Chooclate",
+          "count": "30",
+          "price": "15",
+          "id": 3
+        },
+        {
+          "name": "Pepsi",
+          "count": "22",
+          "price": "6",
+          "id": 4
+        }
+      
+      ]

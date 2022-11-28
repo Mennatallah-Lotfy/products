@@ -1,0 +1,13 @@
+.row{
+    margin: 0;
+}
+.link{
+    text-decoration: none;
+    color: rgb(215, 157, 11);
+    font-weight: 700;
+}
+.side{
+    min-height: 92.4vh;
+    background-color: dimgray;
+}
+

@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Products": [
+    {
+      "name": "Chipsy",
+      "count": "20",
+      "price": "5",
+      "id": 1
+    },
+    {
+      "name": "Molto",
+      "count": "18",
+      "price": "7",
+      "id": 2
+    },
+    {
+      "name": "Chooclate",
+      "count": "30",
+      "price": "15",
+      "id": 3
+    },
+    {
+      "name": "Pepsi",
+      "count": "22",
+      "price": "6",
+      "id": 4
+    }
+  ]
+}
