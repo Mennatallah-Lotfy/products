@@ -15,9 +15,12 @@ function Naav(){
         <NavbarBrand href="/" className="me-auto">
           Products
         </NavbarBrand>
-          <Nav navbar>
+          <Nav >
             <NavItem>
-              <NavLink to="/Home" className='link'>Home</NavLink>
+              <NavLink to="/Home" className='link me-2'>Home</NavLink>
+            </NavItem>
+            <NavItem>
+            <NavLink to='/' className='link'>Admin</NavLink>
             </NavItem>
           </Nav>
       </Navbar>

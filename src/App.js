@@ -13,9 +13,9 @@ function App() {
   return (
     <div>
 <Naav/>
-<div className='row'>
-<div className='col-2 text-center pt-5 side'><NavLink to='/' className='link'>Admin</NavLink></div>
-<div className='col-8 pt-5'>
+<div className='row justify-content-center'>
+{/* <div className='col-2 text-center pt-5 side'><NavLink to='/' className='link'>Admin</NavLink></div> */}
+<div className='col-12 pt-5'>
      <Routes>
       <Route path='/' element={<Admin/>}/>
       <Route path='/NewProduct' element={<NewProduct/>}/>
