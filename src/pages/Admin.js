@@ -87,7 +87,7 @@ theproducts.splice(theproducts.indexOf(theproducts.filter((f)=>{return f.id===pr
     <div>
        <NavLink to={'/NewProduct'}> <Button color='success mb-5'>add new product</Button></NavLink>
        <Table className="table-dark" bordered>
-  <thead>
+  <thead className='hfont'>
     <tr>
     <th>
         #
@@ -108,7 +108,7 @@ theproducts.splice(theproducts.indexOf(theproducts.filter((f)=>{return f.id===pr
   </thead>
   {products.map((product)=>( 
   <tbody key={product.id}>
-    <tr className="table-dark" >
+    <tr className="table-dark font" >
     <td>
         {product.id}
       </td>
